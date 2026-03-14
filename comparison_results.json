@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-14T15:07:12.837388",
+  "results": [
+    {
+      "model": "llama3.2:1b",
+      "averages": {
+        "avg_latency_s": 4.59,
+        "avg_ttft_s": 2.48,
+        "avg_tokens_per_sec": 45.5
+      },
+      "per_prompt": [
+        {
+          "type": "factual",
+          "total_latency_s": 12.04,
+          "ttft_s": 11.88,
+          "tokens_per_second": 0.6,
+          "response_length": 30,
+          "response_preview": "The capital of Japan is Tokyo."
+        },
+        {
+          "type": "reasoning",
+          "total_latency_s": 1.32,
+          "ttft_s": 0.21,
+          "tokens_per_second": 37.4,
+          "response_length": 198,
+          "response_preview": "To find the distance traveled by the train, we need to multiply the speed (in mi"
+        },
+        {
+          "type": "creative",
+          "total_latency_s": 1.89,
+          "ttft_s": 0.11,
+          "tokens_per_second": 67.6,
+          "response_length": 510,
+          "response_preview": "As the soft glow of the studio lights illuminated his metallic form, Zeta, a new"
+        },
+        {
+          "type": "technical",
+          "total_latency_s": 5.81,
+          "ttft_s": 0.11,
+          "tokens_per_second": 59.8,
+          "response_length": 1391,
+          "response_preview": "A REST (Representational State of Resource) API is like a set of instructions th"
+        },
+        {
+          "type": "summarize",
+          "total_latency_s": 1.88,
+          "ttft_s": 0.11,
+          "tokens_per_second": 62.3,
+          "response_length": 469,
+          "response_preview": "The water cycle, also known as the hydrologic cycle, is the continuous process b"
+        }
+      ]
+    },
+    {
+      "model": "qwen3-vl:4b",
+      "averages": {
+        "avg_latency_s": 85.07,
+        "avg_ttft_s": 58.54,
+        "avg_tokens_per_sec": 4.3
+      },
+      "per_prompt": [
+        {
+          "type": "factual",
+          "total_latency_s": 46.59,
+          "ttft_s": 29.21,
+          "tokens_per_second": 8.0,
+          "response_length": 1487,
+          "response_preview": "The **capital of Japan is Tokyo** (\u6771\u4eac).  \n\n### Key Details:\n- **Official Status*"
+        },
+        {
+          "type": "reasoning",
+          "total_latency_s": 46.28,
+          "ttft_s": 28.93,
+          "tokens_per_second": 3.0,
+          "response_length": 564,
+          "response_preview": "To determine how far the train travels, we use the fundamental formula for dista"
+        },
+        {
+          "type": "creative",
+          "total_latency_s": 107.68,
+          "ttft_s": 72.73,
+          "tokens_per_second": 1.1,
+          "response_length": 489,
+          "response_preview": "The robot's sensors whirred as it clumsily adjusted its brush, its programming d"
+        },
+        {
+          "type": "technical",
+          "total_latency_s": 204.81,
+          "ttft_s": 145.77,
+          "tokens_per_second": 4.5,
+          "response_length": 3680,
+          "response_preview": "A **REST API** (Representational State Transfer API) is like a **digital menu** "
+        },
+        {
+          "type": "summarize",
+          "total_latency_s": 19.98,
+          "ttft_s": 16.05,
+          "tokens_per_second": 5.0,
+          "response_length": 402,
+          "response_preview": "The water cycle describes the continuous movement of water on Earth, where water"
+        }
+      ]
+    }
+  ]
+}

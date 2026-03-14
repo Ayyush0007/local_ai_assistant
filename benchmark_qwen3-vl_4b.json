@@ -1,0 +1,66 @@
+{
+  "model": "qwen3-vl:4b",
+  "date": "2026-03-09T11:08:14.766002",
+  "averages": {
+    "avg_latency_s": 33.75,
+    "avg_ttft_s": 18.97,
+    "avg_tokens_per_second": 7.9
+  },
+  "results": [
+    {
+      "id": 1,
+      "type": "factual",
+      "prompt": "What is the capital of Japan?...",
+      "response_preview": "The capital of Japan is **Tokyo**.  \n\n### Key details:\n- **Officially**: Tokyo (\u6771\u4eac) is designated as...",
+      "time_to_first_token_s": 37.41,
+      "total_latency_s": 48.5,
+      "estimated_tokens": 277,
+      "tokens_per_second": 5.7,
+      "response_length_chars": 1108
+    },
+    {
+      "id": 2,
+      "type": "reasoning",
+      "prompt": "If a train travels 60mph for 2.5 hours, how far does it go?...",
+      "response_preview": "To determine how far the train travels, we use the basic formula for distance:\n\n$$\n\\text{Distance} =...",
+      "time_to_first_token_s": 13.03,
+      "total_latency_s": 21.09,
+      "estimated_tokens": 140,
+      "tokens_per_second": 6.6,
+      "response_length_chars": 558
+    },
+    {
+      "id": 3,
+      "type": "creative",
+      "prompt": "Write a 3-sentence story about a robot learning to paint....",
+      "response_preview": "The metallic arm of the robot trembled as it adjusted its grip on the paintbrush, its sensors overwh...",
+      "time_to_first_token_s": 9.85,
+      "total_latency_s": 14.53,
+      "estimated_tokens": 142,
+      "tokens_per_second": 9.8,
+      "response_length_chars": 567
+    },
+    {
+      "id": 4,
+      "type": "technical",
+      "prompt": "Explain what a REST API is in simple terms....",
+      "response_preview": "A **REST API** (Representational State Transfer API) is like a **digital librarian** for your app or...",
+      "time_to_first_token_s": 18.93,
+      "total_latency_s": 63.25,
+      "estimated_tokens": 805,
+      "tokens_per_second": 12.7,
+      "response_length_chars": 3221
+    },
+    {
+      "id": 5,
+      "type": "summarize",
+      "prompt": "Summarize the water cycle in 2 sentences....",
+      "response_preview": "The water cycle describes the continuous movement of water on Earth, driven by the sun: **water evap...",
+      "time_to_first_token_s": 15.65,
+      "total_latency_s": 21.4,
+      "estimated_tokens": 100,
+      "tokens_per_second": 4.7,
+      "response_length_chars": 401
+    }
+  ]
+}
